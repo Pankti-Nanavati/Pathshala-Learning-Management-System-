@@ -1,0 +1,13 @@
+p#no_class{
+	border-style: solid;
+	border-color: #ABAFB4;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	font-size: 2em;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 10px;
+}

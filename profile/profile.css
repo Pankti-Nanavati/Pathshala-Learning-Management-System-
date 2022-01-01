@@ -1,0 +1,64 @@
+body{
+	background-color: #ECECEC;
+}
+
+#profile{
+  color: white;
+  font-weight: 80px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#profile:hover {
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
+
+#backwhite{
+	margin-right: 5px;
+}
+#backwhite:hover {
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
+#logout{
+  color: white;
+  font-weight: 30px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+#logout:hover{
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
+img {
+    border-radius: 50%;
+    width: 400px;
+  }
+  input, select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,44 @@
+$name= $_POST["name"];
+$para= $_POST["para"];
+$password= $_POST["password"];
+$resetpassword= $_POST["repassword"];
+$replace = $_POST['replace'];
+$replaceword = $_POST['replaceword'];
+
+<Doctype html>
+    <html>
+    <body>
+    <br>
+    <form action="exp3.php" method="post">
+    Name: 
+    <input type="text" name="name" placeholder="Enter name" autofocus />
+    <br>
+    <br>
+    Paragraph: 
+    <textarea name="para" cols="50" rows="5" placeholder="Enter Paragraph"></textarea>
+    <br>
+    <br>
+    Enter password:  
+    <input type="password" name="password" value="secret" />
+    <br>
+    <br>
+    Enter password Again:  
+    <input type="password" name="repassword" value="secret" />
+    <br>
+    <br>
+    Replace word: 
+    <input type="text" name="replace"  />
+    <br>
+    <br>
+    Replace to which word: 
+    <input type="text" name="replaceword" />
+    <br>
+    <br>
+   Find Position of word: 
+    <input type="text" name="rpos" />
+    <br>
+    <br>
+    <input type="submit" name="Submit" value="Submit" />
+    </form>
+    </body>
+    </html>

@@ -1,0 +1,2 @@
+Hello class.
+Welcome to WP practicals

@@ -1,0 +1,40 @@
+#quiz_respond{
+	margin-left: 100px;
+	border-left-style: solid;
+  	border-left-color: #0275d8;
+  	border-right-style: solid;
+  	border-right-color: #0275d8;
+  	margin-right: 100px;
+}
+#question{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 20px;
+	font-size: 1.7em;
+}
+span#pushright{
+  	font-family: Arial, Helvetica, sans-serif;
+  	text-align: right;
+  	margin-left: 1000px;
+  	font-size: 1.3em;
+}
+#answers{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 20px;
+}
+span#option{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+}
+button#submit{
+	margin-left: 550px;
+}
+#hr{
+	color: #ECECEC;
+}
+span#subject{
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 3em;
+  	margin-bottom: 50px;
+  	margin-left: 100px;
+  	color:#0275d8;;
+}
